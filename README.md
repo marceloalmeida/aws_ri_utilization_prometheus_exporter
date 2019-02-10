@@ -4,21 +4,21 @@
 
 This exporter pulls AWS EC2 Reserved Instance utilization metrics from the Cost Explorer API. Since Cost Explorer updates only once per day, the exporter pulls yesterday's data only. The exporter provides the following RI Utilization data:
 
-      AmortizedRecurringFee
-      AmortizedUpfrontFee
-      NetRISavings
-      OnDemandCostOfRIHoursUsed
-      PurchasedHours
-      PurchasedUnits
-      TotalActualHours
-      TotalActualUnits
-      TotalAmortizedFee
-      TotalPotentialRISavings
-      UnusedHours
-      UnusedUnits
-      UtilizationPercentage
-      UtilizationPercentageInUnits
-
+     - AmortizedRecurringFee
+     - AmortizedUpfrontFee
+     - NetRISavings
+     - OnDemandCostOfRIHoursUsed
+     - PurchasedHours
+     - PurchasedUnits
+     - TotalActualHours
+     - TotalActualUnits
+     - TotalAmortizedFee
+     - TotalPotentialRISavings
+     - UnusedHours
+     - UnusedUnits
+     - UtilizationPercentage
+     - UtilizationPercentageInUnits
+     
 # Authentication
 
 The script use Boto 3 so the running user's aws/credentials file will need to configured appropriately.
