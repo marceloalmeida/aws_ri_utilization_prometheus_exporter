@@ -31,7 +31,7 @@ By default the exporter runs on 9250 but a custom port can be specified from the
 
 # Docker
 
-docker run --restart always -d -p 9250:9250 -e AWS_DEFAULT_REGION="XXXX" -e AWS_ACCESS_KEY_ID="XXXXXX" -e AWS_SECRET_ACCESS_KEY="XXXXX" adapture/aws-ri-utilization-prometheus-exporter:latest
+docker run --restart always -d -p 9250:9250 -e AWS_DEFAULT_REGION="XXXX" -e AWS_ACCESS_KEY_ID="XXXXXX" -e AWS_SECRET_ACCESS_KEY="XXXXX" psczurekadapture/aws-ri-utilization-prometheus-exporter:latest
 
 # Prometheus config
 
