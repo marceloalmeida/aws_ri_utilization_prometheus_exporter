@@ -1,3 +1,5 @@
+# Copyright 2019 Paul Sczurek pocketcalculatorshow@gmail.com
+#
 #!/usr/bin/env python3
 
 from prometheus_client import start_http_server
