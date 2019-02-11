@@ -1,4 +1,4 @@
-# Prometheus RI Utilization Exporter
+# AWS RI Utilization Prometheus Exporter
 
 # Description
 
