@@ -1,8 +1,8 @@
 FROM python:3
 
-ADD awsRIUtilizationExporter.py /
+ADD aws-ri-utilization-prometheus-exporter.py /
 
 RUN pip3 install boto3 
 RUN pip3 install prometheus_client
 
-CMD [ "python", "./awsRIUtilizationExporter.py" ]
+CMD [ "python", "./aws-ri-utilization-prometheus-exporter.py" ]
